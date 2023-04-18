@@ -244,11 +244,11 @@
 
 <body>
 
-  <button class="btn large my-color rounded threeD" type="button" onclick="navigate()"> <i class="fa-regular fa-star"></i> 설문조사 하러가기</button>
+  <button class="btn large red rounded threeD" type="button" onclick="navigate()"> mybutton</button>
   
   <script>
     function navigate() {
-      window.open("https://www.naver.com/", '_blank').focus();
+      window.open("https://www.naver.com/", '_parent').focus();
     }
   </script>
 
